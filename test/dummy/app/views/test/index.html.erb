@@ -1,0 +1,7 @@
+<%if current_user%>
+Hello <%= current_user.email%></br>
+<%end%>
+<%= post_to_facebook 'this is a test'%>
+
+<%= post_to_twitter 'this is a test'%>
+

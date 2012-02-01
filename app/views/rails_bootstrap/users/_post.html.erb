@@ -1,0 +1,4 @@
+<%= form_tag @action, :method => :get do |f|%>
+    <%= text_field_tag 'message', @message%>
+    <%= submit_tag "Post", :class => 'btn primary'%>
+<% end %>

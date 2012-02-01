@@ -1,0 +1,9 @@
+Description:
+    Installation of config files
+
+Example:
+    rails generate install
+
+    This will create:
+        -facebook.yml
+        -twitter.yml

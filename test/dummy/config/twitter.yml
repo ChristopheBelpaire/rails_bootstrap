@@ -1,0 +1,11 @@
+development:
+  consumer_key: '4gpP9bIcZCfmXVvDUOKdQ'
+  consumer_secret: 'xy2yD9m0kImkX902IFjJY6qt9KcglJ10NFJNne0zyFw'
+  oauth_token: '23429538-ZmI6H9pBdmp4cSNbNaHIiMeEHYR4h4BmHSxF21k8U'
+  oauth_token_secret: 'MunqhY2gr8D8L3ZNBKGjm77aMigMRc8IV1Jqx9m90g'
+
+production:
+  consumer_key: '3WULQJRFBB9nNLLVHvO5A'
+  consumer_secret: 'trWwoPNdJAzxfOTUC4WBx10MCVOsnAuf2mlIiW67VSk'
+  oauth_token: '342691194-3KCGrYfRu5nvxMQQ96Rj2N7Ys3onWfiGTooLlBY'
+  oauth_token_secret: 'V5XUfMpzIpBpxbzs9KAqIxHJhdQIOM6EbSCEBbM4'
