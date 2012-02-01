@@ -7,11 +7,11 @@ require "rails_bootstrap/version"
 Gem::Specification.new do |s|
   s.name        = "rails_bootstrap"
   s.version     = RailsBootstrap::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsBootstrap."
-  s.description = "TODO: Description of RailsBootstrap."
+  s.authors     = ["Christophe Belpaire"]
+  s.email       = ["christophe.belpaire@gmail.com"]
+  s.homepage    = "git@github.com:ChristopheBelpaire/rails_bootstrap.git"
+  s.summary     = "A bootstrap for new rails app"
+  s.description = "An engine with users, login, facebook, twitter and admin support"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
