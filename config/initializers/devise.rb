@@ -204,7 +204,7 @@ Devise.setup do |config|
 
   if File.exists? "#{Rails.root}/config/facebook.yml"
     facebook_config = YAML::load(File.open("#{Rails.root}/config/facebook.yml"))[Rails.env]
-    config.omniauth :facebook, facebook_config['app_id'], facebook_config['app_secret'], :scope => 'publish_stream,email,offline_access,manage_pages' if Rails.env == 'development'
+    config.omniauth :facebook, facebook_config['app_id'], facebook_config['app_secret'], :scope => 'publish_stream,email,offline_access,manage_pages'
   end
 
   if File.exists? "#{Rails.root}/config/twitter.yml"
